@@ -1,0 +1,255 @@
+@media (max-width: 1156px) {
+    .services__items {
+        display: block;
+    }
+
+    .services__item {
+        max-width: 80%;
+        min-height: 330px;
+        margin: 30px auto;
+    }
+
+    .services__item:nth-child(n+2) {
+       margin-left: auto;
+    }
+
+    .form__inner {
+        background-image: none;
+    }
+
+    .news {
+        padding-bottom: 40px;
+    }
+
+    .news__inner {
+        display: block;
+    }
+
+    .news__slider {
+        max-width: 100%;
+        margin-bottom: 90px;
+    }
+
+    .news__blog {
+        display: block;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    /* Used another solution for clearfix issue in my code - see rule for .clearfix::after in style.css */
+    /* .news__blog::after {
+        content: "";
+        clear: both;
+        display: block;
+    } */
+
+    .news__images {
+        float: left;
+        margin-right: 50px;
+    }
+
+    .footer__info {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .footer__inner {
+        display: block;
+    }
+
+    .footer__map {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    .slider .slick-arrow {
+        display: none;
+    }
+
+    .services__top,
+    .news__top {
+        display: block;
+    }
+
+    .services__title-box,
+    .form__title-box,
+    .news__title-box {
+        padding-left: 0;
+        padding-bottom: 30px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .services__title-box p,
+    .form__title-box p,
+    .news__title-box p {
+        text-align: center;
+    }
+
+    .services__title-box::before,
+    .form__title-box::before,
+    .news__title-box::before {
+        display: none;
+    }
+
+    .services__btn,
+    .news__btn {
+        text-align: center;
+    }
+
+    .services__btn a {
+        margin-top: 0;
+    }
+
+    .form {
+        padding-bottom: 25px;
+    }
+    
+    .form__box-inner {
+        display: block;
+    }
+
+    .form__box-left {
+        max-width: 100%;
+    }
+
+    .form__box-right {
+        max-width: 100%;
+    }
+
+    .form__box-inner .jq-selectbox__select {
+        margin-bottom: 10px;
+    }
+
+    .advantages__inner {
+        display: block;
+    }
+
+    .advantages__item {
+        min-width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+/* 700px in the notes */
+@media (max-width: 625px) {
+    .header__contacts {
+        text-align: center;
+    }
+    
+    .header__btn {
+        float: none;
+    }
+
+    .header__btn::before {
+        display: none;
+    }
+
+    .header__menu {
+        display: block;
+        font-size: 28px;
+    }
+
+    .menu ul {
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 20px;
+        z-index: 50;
+    }
+
+    .menu li,
+    .menu a {
+        display: block;
+    }
+
+    .menu li {
+        text-align: center;
+    }
+
+    .menu li + li {
+        padding-left: 0;
+    }
+
+    .menu a {
+        background-color: #ffc222;
+        border-top: 1px solid #ffffff;
+        border-bottom: 1px solid #ffffff;
+    }
+
+    .footer__info .header__btn::before {
+        display: block;
+    }
+}
+
+@media (max-width: 600px) {
+    .services__item {
+        max-width: 100%;
+        min-height: 370px;
+    }
+}
+
+@media (max-width: 540px) {
+    .news__slider {
+        padding: 50px 15px 25px 25px;
+    }
+
+    .news__slider::before {
+        left: 25px;
+    }
+
+    .news__slider-inner .slick-next {
+        right: -15px
+    }
+
+    .news__slider-inner .slick-prev {
+        right: 40px;
+    }
+
+    .news__images {
+        float: none;
+    }
+}
+
+/* Screen size 414px from the notes is also included here */
+@media (max-width: 400px) {
+    .header__btn::before {
+        display: block;
+    }
+
+    .slider__title {
+        font-size: 24px;
+    }
+
+    .slider__text {
+        font-size: 16px;
+    }
+
+    .advantages__item {
+        padding: 0;
+    }
+}
+
+/* 390px in the notes */
+@media (max-width:375px) {
+    .header__contacts {
+        text-align: center;
+    }
+
+    .header__phone {
+        padding-left: 54px;
+    }
+
+    .header__phone::before {
+        padding-left: 34px;
+    }
+}
+
+@media (min-width:626px) {
+    .menu ul {
+        display: block !important;
+    }
+}
